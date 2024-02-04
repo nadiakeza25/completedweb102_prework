@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+body {
+    background-image: url("HappyCat.gif");
+    text-shadow: white 0px 0px 2px;
+    background-size: contain;
+    font-family: 'Cabin';
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #78839d ;
+}
+
+h2 {
+color: black;
+}
+
+#description-container {
+    color: black;
+    text-shadow: #87c8f9 0px 0px 2px;
+}
+
+#tentacles {
+    width: 50px;
+}
+
+.header {
+    display: flex;
+    background-image: url(Robloximg.gif);
+    padding: 1%;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.stats-container { 
+    background-color: rgb(117, 129, 144);
+    text-align: center;
+   width: 100%;
+   box-shadow: 0 0 30px lightblue;
+   display: flex;
+   cursor: pointer;
+    
+    
+    
+}
+
+.stats-card {
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+#num-contributions, #total-raised, #num-games {
+    font-size: 50px;
+}
+
+#games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
+}
+
+.game-card {
+    background-color: whitesmoke ;
+    padding: 1%;
+    margin: 1%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+    transition: .5s;
+}
+
+.game-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(226, 170, 179);
+    scale: 1.05;
+    flex-direction: column-reverse;
+}
+
+#button-container {
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+button {
+    font-family: 'Cabi';
+    border: none;
+    padding: 1% 5%;
+    margin: 1% 2%;
+    border-radius: 7px;
+    max-height: 4em;
+}
+
+img{
+    max-width: 100%;
+}
